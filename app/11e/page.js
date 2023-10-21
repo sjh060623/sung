@@ -8,6 +8,8 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
 
+
+  
   const [grade, setGrade] = useState(1);
   const [summ, setSumm] = useState(1);
   const [tar, setTar] = useState("중간");
