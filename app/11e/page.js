@@ -85,8 +85,8 @@ export default function Home() {
             id="countries"
             className=" my-4 bg-white border-gray-500 rounded-lg border   w-32 h-12"
           >
-            <option selected>중간</option>
-            <option>기말</option>
+            <option >중간</option>
+            <option selected>기말</option>
           </select>
           <button
             onClick={onClock}
@@ -108,7 +108,7 @@ export default function Home() {
         </div>
 
         <div>
-          <Image src={require("public/one.png")} />
+          <Image src={require("public/onegi.png")} />
         </div>
       </div>
       <footer>

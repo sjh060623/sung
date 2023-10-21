@@ -61,8 +61,8 @@ export default function Home() {
             id="countries"
             className=" my-4 bg-white border-gray-500 rounded-lg border  w-32 h-12"
           >
-            <option selected>1</option>
-            <option>2</option>
+            <option >1</option>
+            <option selected>2</option>
           </select>
           <h1 className="mx-10 my-7">학기</h1>
           <select
@@ -73,8 +73,8 @@ export default function Home() {
             id="countries"
             className=" my-4 bg-white border-gray-500 rounded-lg border   w-32 h-12"
           >
-            <option selected>1</option>
-            <option>2</option>
+            <option >1</option>
+            <option selected>2</option>
           </select>
           <h1 className="mx-10 my-7">성적기준</h1>
           <select
@@ -108,7 +108,7 @@ export default function Home() {
         </div>
 
         <div>
-          <Image src={require("public/one.png")} />
+          <Image src={require("public/twogi.png")} />
         </div>
       </div>
       <footer>
