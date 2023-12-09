@@ -108,7 +108,7 @@ export default function Home() {
         </div>
 
         <div>
-          <Image src={require("public/twogi.png")} />
+          <Image src={require("public/twogi.jpeg")} />
         </div>
       </div>
       <footer>
